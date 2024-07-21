@@ -1,0 +1,173 @@
+/* Name: Samreen Kaur, Student Number: 8976042 */
+
+/* Root element */
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Body styling */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color:cadetblue;
+    border: 1px solid #ccc;
+}
+
+/* Header and footer */
+header, footer {
+    background: linear-gradient(to right, #fe7bca);
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+footer {
+    font-size: 0.75rem;
+    clear: both;
+}
+
+/* Main content layout */
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section {
+    flex: 1 1 70%;
+    margin: 1rem;
+}
+
+aside {
+    flex: 1 1 30%;
+    margin: 1rem;
+}
+
+/* Headings styling */
+h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Calibre', serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Blockquotes */
+blockquote {
+    background: #eee;
+    border-left: 5px solid #ccc;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* Quotes */
+q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #555;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px #aaa;
+}
+
+/* Figures */
+figure {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+figure img {
+    border-radius: 10px;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: 'Calibre', serif;
+    color: #777;
+    text-align: center;
+}
+
+/* Video */
+iframe {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Aside styling */
+aside h2 {
+    font-variant: small-caps;
+    color: #333;
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+aside a:hover {
+    color: #005bb5;
+}
+
+aside form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+aside label {
+    font-weight: bold;
+    color: #555;
+}
+
+aside input, aside textarea, aside select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+aside input[type="submit"] {
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+}
+
+aside input[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    aside {
+        margin: 0 0 1rem 0;
+    }
+}
+
+/* Accessibility */
+:focus {
+    outline: 2px solid #0073e6;
+    outline-offset: 2px;
+}
